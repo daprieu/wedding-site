@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
   lineHeight: '60px',
 }));
 
-const darkTheme = createTheme({ palette: { mode: 'dark' } });
+
 const lightTheme = createTheme({ palette: { mode: 'light' } });
 
 function App() {
