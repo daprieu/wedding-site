@@ -24,6 +24,11 @@
     width: 50em;
     margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+    .MuiPaper-root {
+        width: 20em;
+    }
+  }
 body {
         background-image: url("https://images.unsplash.com/photo-1606762903097-713bf356b8c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
         background-color: #cccccc;

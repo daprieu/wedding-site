@@ -41,13 +41,13 @@ Object.keys(timeLeft).forEach((interval) => {
 });
   return (
     <div>
-      <div className="time time-increments">
+      <span className="time time-increments">
       {Object.entries(timeLeft).map((timeUnit) => (
       <div className="time-unit">
       <div className="time-integer">{timeUnit[1] < 10 ? `0${timeUnit[1]}` : timeUnit[1]}</div>
-      <div className="time-value">{timeUnit[0]}</div>
+      <span className="time-value">{timeUnit[0]}</span>
       </div>))}
-      </div>
+      </span>
       
     </div>
   )

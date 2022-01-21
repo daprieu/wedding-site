@@ -1,9 +1,11 @@
 .imgs {
-    align-items: center;
-    margin-left: 10em;
-    margin-right: 10em;
-    margin: auto auto 0 auto; 
     
+    margin: auto auto 0 auto; 
+    width: 500;
+    height: 550;
+}
+.MuiImageList-root {
+    margin: 0 .5em 0 .5em;
 }
 .img-div {
     

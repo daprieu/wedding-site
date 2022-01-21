@@ -34,7 +34,7 @@ function App() {
                 
               }}
             >
-                <Item elevation={8} style={{marginBottom: '50px'}}>
+                <Item elevation={8}>
                   <div className="App-content" >
                   <h1 className="title top">Meredith Fifer</h1>
                   <h1 className="title">&</h1>  
