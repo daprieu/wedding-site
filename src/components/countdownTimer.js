@@ -27,7 +27,6 @@ export default function CountdownTimer() {
     return () => clearTimeout(timer);
   });  
   const timerComponents = [];
-  console.log('timerComponents', timerComponents)
   
 
 Object.keys(timeLeft).forEach((interval) => {

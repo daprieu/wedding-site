@@ -1,18 +1,17 @@
 .imgs {
-    
-    margin: auto auto 0 auto; 
-    width: 500;
-    height: 550;
+    margin: auto;
+    width: 650px;
+    height: 350px;
+    overflow: scroll;
 }
+@media (max-width: 500px){
+    .imgs{
+      width: 95%;
+  
+    }
+  }
 .MuiImageList-root {
     margin: 0 .5em 0 .5em;
-}
-.img-div {
-    
-    max-width:300px;
-    max-height:500px;
-    width: auto;
-    height: auto;
 }
 
  /* Hide scrollbar for Chrome, Safari and Opera */

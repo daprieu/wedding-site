@@ -6,7 +6,8 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function ImageGallery() {
   return (
-    <Box className="imgs" sx={{overflowY: 'scroll', margin: 'auto'}}>
+    <div className="imgs">
+    {/* <Box sx={{width: '75%', height: "75%", overflowY: 'scroll', margin: 'auto'}}> */}
       <ImageList variant="masonry" cols={3} gap={6}>
         {[...Array(44).keys()].map((img) => (
           <ImageListItem key={img}>
@@ -19,7 +20,8 @@ export default function ImageGallery() {
           </ImageListItem>
         ))}
       </ImageList>
-    </Box>
+    
+    </div>
   );
 }
 
