@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.time {
+  display: flex;
+  font-family: 'Roboto Slab', serif;
+  align-items: center;
+  justify-content: center;
+}
+.time-unit{
+  margin: 1em;
+  align-items: center;
+  text-align: center;
+}
+.time-integer {
+  margin-bottom: .5em;
+  padding: .4em;
+  background: black;
+  color: white;
+  border-radius: .5em;
+  font-size: 2em;
+  width: 1.5em;
+}
+
+.time-value {
+  font-size: 1em;
+}
