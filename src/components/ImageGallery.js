@@ -1,13 +1,11 @@
 import "./ImageGallery.css"
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 export default function ImageGallery() {
   return (
     <div className="imgs">
-    {/* <Box sx={{width: '75%', height: "75%", overflowY: 'scroll', margin: 'auto'}}> */}
       <ImageList variant="masonry" cols={3} gap={6}>
         {[...Array(44).keys()].map((img) => (
           <ImageListItem key={img}>
