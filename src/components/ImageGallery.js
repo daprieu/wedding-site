@@ -10,8 +10,8 @@ export default function ImageGallery() {
         {[...Array(44).keys()].map((img) => (
           <ImageListItem key={img}>
             <img
-              src={`${`https://res.cloudinary.com/myclutch/image/upload/v1642641235/Mere%20and%20I/MereandI/${img}.webp`}?w=248&fit=crop&auto=format`}
-              srcSet={`${`https://res.cloudinary.com/myclutch/image/upload/v1642641235/Mere%20and%20I/MereandI/${img}.webp`}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              src={`${`https://res.cloudinary.com/myclutch/image/upload/c_scale,w_500/v1642641235/Mere%20and%20I/MereandI/${img}.webp`}?w=248&fit=crop&auto=format`}
+              srcSet={`${`https://res.cloudinary.com/myclutch/image/upload/c_scale,w_500/v1642641235/Mere%20and%20I/MereandI/${img}.webp`}?w=248&fit=crop&auto=format&dpr=2 2x`}
               alt={''}
               loading="lazy"
             />
