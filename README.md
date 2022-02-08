@@ -1,3 +1,5 @@
+To see the live site checkout follow this [link!](https://fiferprieu.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
